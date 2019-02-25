@@ -1,21 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react"
+import "./App.css"
+import BoatMap from "./BoatMap.js"
+import "leaflet/dist/leaflet.css"
+import Visualisations from "./Visualisations.js"
+import data from "./data/boat_ramps.js"
 
 class App extends Component {
+  constructor(props) {
+    super(props)
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="mapContainer">
+          <BoatMap data={data} />
+        </div>
+        <div className="visualisationsContainer">
+          <Visualisations />
+        </div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App

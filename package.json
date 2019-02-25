@@ -3,9 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "apexcharts": "^3.4.1",
+    "leaflet": "^1.4.0",
     "react": "^16.0.0",
+    "react-apexcharts": "^1.2.1",
+    "react-bar-chart": "^0.1.2",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-leaflet": "^2.2.1",
+    "react-redux": "^6.0.1",
+    "react-scripts": "1.0.14",
+    "redux": "^4.0.1",
+    "turf": "^3.0.14"
   },
   "scripts": {
     "start": "react-scripts start",
