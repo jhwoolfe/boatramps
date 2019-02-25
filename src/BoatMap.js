@@ -27,8 +27,6 @@ class BoatMap extends React.Component {
     this.props.dispatch(updateBounds(bounds))
   }
 
-  componentWillReceiveProps(nextProps) {}
-
   render() {
     return (
       <Map
