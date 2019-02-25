@@ -12,12 +12,7 @@ const rangeKeys = {
 class Visualisations extends Component {
   constructor(props) {
     super(props)
-    //    this.state = {}
   }
-
-  // componentWillReceiveProps(nextProps) {
-  //   this.setState({ ...nextProps })
-  // }
 
   render() {
     return (
